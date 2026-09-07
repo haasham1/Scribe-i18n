@@ -6,6 +6,11 @@ Usage:
     python3 i18n/scripts/android/convert_jsons_to_strings.py
 """
 
+import utils.net
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import json
 import os
 import shutil
